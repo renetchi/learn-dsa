@@ -42,8 +42,6 @@ function BinarySearchTree() {
   
   // Start of function getHeight
   this.getHeight = function(root) {
-
-      // Add your code here
       if(root === null) {
           return -1;
       }
